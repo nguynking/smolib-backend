@@ -8,10 +8,10 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://smolib.com",          # Production
-        "https://www.smolib.com",      # Production www
+        "https://www.smolib.com",      # Production wwg
     ],
     allow_credentials=True,
-    allow_methods=["GET", "POST"],
+    allow_methods=["*"],
     allow_headers=["*"],
 )
 
@@ -24,4 +24,4 @@ async def root():
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run(app, port=8000)
+    uvicorn.run(app, port=443)
