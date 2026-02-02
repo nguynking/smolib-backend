@@ -7,5 +7,7 @@ requires-python = ">=3.10"
 dependencies = [
     "fastapi>=0.116.1",
     "hypercorn>=0.17.3",
+    "python-dotenv>=1.2.1",
+    "supabase>=2.27.2",
     "uvicorn>=0.35.0",
 ]
