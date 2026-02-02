@@ -18,7 +18,7 @@ app.add_middleware(
 
 @app.get("/")
 async def root():
-    return {"message": "Hello, make changes to the backend"}
+    return {"message": "Hi, this is smolib"}
 
 
 if __name__ == "__main__":
