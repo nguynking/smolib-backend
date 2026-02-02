@@ -18,7 +18,7 @@ app.add_middleware(
 
 @app.get("/")
 async def root():
-    return {"message": "Hello localhost"}
+    return {"message": "Hello, This is the smolib backend"}
 
 
 if __name__ == "__main__":
